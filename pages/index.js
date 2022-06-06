@@ -1,14 +1,10 @@
-import NavBar from "../components/NavBar";
+import Seo from "../components/Seo";
 
 export default function Home() {
   return (
     <div>
+      <Seo title="Home" />
       <h1>Hello</h1>
-      <style jsx>{`
-        a {
-          color: white;
-        }
-      `}</style>
     </div>
   );
 }
